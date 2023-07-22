@@ -1,0 +1,145 @@
+
+ /*-------------------------------------- Container ------------------------------------------- */
+.mainContainer{
+    height:120vh;
+    width: 100%; 
+    padding: 4vw;
+    background-color: #FAFAFA; 
+
+}
+.cartContainer{
+    height:100vh;
+    width: 100%; 
+    padding-top: 4vw;
+    display: flex;
+
+}
+.containerTable1{
+    
+    height:70vh;
+    width: 70vw; 
+    padding-right: 4vh; 
+
+}
+.containerTable2{
+    
+    height:45vh;
+    width: 25vw;
+    padding: 1vh;
+    background-color: #FFFFFF;
+    box-shadow: 0.28vh 0.28vh 1.4vh rgba(0,  0, 0, 0.2); 
+
+} 
+ /*-------------------------------------- Table1 ------------------------------------------- */
+ 
+ .table thead{
+     border: none;
+
+ }
+ .table tbody{
+    
+    border: #e3e3e3 sloid 0.14vh; 
+    box-shadow: 0.28vh 0.28vh 1.4vh rgba(0,  0, 0, 0.2);
+
+ }
+
+table tr
+{
+    background-color: #FFFFFF; 
+    margin-bottom: 2vh;
+}
+ table tr th:nth-child(1){
+    width:30vw;
+    
+ }
+ table tr th:nth-child(2){
+    width:20vw; 
+ }
+ table tr th:nth-child(3){
+    width:20vw;
+ }
+ table tr th:nth-child(4){
+    width:20vw;
+ }
+ table tr td{
+    text-align: center;
+
+ }
+#tbodySeperator
+{
+    margin-bottom: 5vh;
+}
+ #tbodySeperator img{
+     height:20vh;
+     width: 17vw;
+     padding: 1vh; 
+ }
+ #table1RemoveBtn{
+     margin: 1vw;
+     padding: 0.35vw 1vw;
+     background-color:#8445DE;
+     border-color: #8445DE; 
+     border-radius: 20px;
+     color: #FAFAFA;
+ }
+ /*-------------------------------------- Table 2 ------------------------------------------- */
+
+ 
+.table2Box{ 
+    height: 39vh;
+    width: 21vw;
+    border: #8445DE solid 0.1vh; 
+    margin: 2vh;
+    align-items: center;
+}
+
+ .containerTable2{ 
+    text-align: center;
+ }
+ .summaryTitle{ 
+    text-align: center;
+ }
+ 
+ .summaryParagraph{  
+    border-bottom: 1px solid #8445DE;
+    margin: 0vh 4vw;
+ }   
+
+ .summaryTotal{  
+     font-weight: bold;
+ }
+ 
+ .summaryInput{  
+    width: 13vw;
+    border: 1px solid #8445DE;
+ }
+  
+ 
+ .summaryButton{  
+     font-weight: bold;
+     width: 20vh;
+     background-color: #8445DE; 
+     border-radius: 20px;
+     padding: 0.35vw 1vw;
+     margin-bottom: 1vh;
+ } 
+
+.summaryCheckbox{ 
+    height: 2vh;
+    width: 2vw;
+    color: #8445DE;
+}
+
+ /*-------------------------------------- Footer------------------------------------------- */
+.footer{
+    margin-top: 0vh;
+}
+/*------------------------------------------PayPal--------------------------------------------------*/
+paypal.Buttons({
+  style: {
+    layout: 'vertical',
+    color:  'blue',
+    shape:  'rect',
+    label:  'paypal'
+  }
+}).render('#paypal');

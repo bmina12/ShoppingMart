@@ -1,0 +1,275 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+*
+{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Playfair Display', serif;
+}
+.navbar
+{
+	display: flex;
+	flex-direction: row;
+	padding-top: 3vh;
+	flex-wrap: wrap;
+	width: 100%;
+	margin: auto;
+}
+.logo img 
+{
+	width: 8vw;
+	height: 10vh;
+	margin-left: 3vw;
+}
+.searchBar
+{
+	transform: translateY();
+	display: flex;
+	padding-left: 6vw;
+}
+.bar 
+{
+	width: 45vw; height: 5vh;
+	transform: translateY(2vh);
+}
+.searchForm
+{
+	display: flex;
+}
+.searchButton
+{
+	display: flex;
+	justify-content: center; align-items: center;
+	width: 3vw; height: 5vh;
+	background-color:#8544DE ;
+	color: #03420C;
+	border: 0.5px solid grey;
+	transform: translateY(2vh);
+	font-size: 18px;
+}
+.signInOption
+{
+	transform: translateY(2vh);
+	padding-left: 10vw;
+	display: flex;
+	cursor: pointer;
+}
+.signInButton
+{
+	width: 10vh;
+	height: 5vh;
+	background-color: transparent;
+	color: black;
+	font-size: 16px;
+	border-color: transparent;
+	transform: translateY(-0.8vh);
+	cursor: pointer;
+}
+.cart 
+{
+	transform: translateY(2vh);
+	display: flex;
+	padding-left: 5vw;
+	color: black;
+	font-size: 16px;
+}
+.cart a 
+{
+	text-decoration: none;
+	color: black;
+	padding-right: 4px;
+}
+
+.navIcon
+{
+	font-size: 20px;
+}
+.accountDisplay
+{
+	transform: translateY(2vh);
+	padding-left: 16vw;
+	display: flex;
+	cursor: pointer;
+}
+.accountName
+{
+	padding-left: 1vw;
+	display: flex;
+	flex-direction: column;
+}
+.accountName a 
+{
+	text-decoration: none;
+	color: black;
+}
+.logout
+{
+	padding: 1vh 0vw;
+}
+.logout a
+{
+	text-decoration: none;
+	font-weight: 1000;
+}
+/*--------------------------------------------Second Navbar------------------------------------------------------*/
+.navbar2
+{
+	width: 100%;
+	height: 5vh;
+	background-color: #8544DE;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 2vh;
+}
+.navbar2 ul
+{
+	text-align: center;
+}
+.navbar2 ul li 
+{
+	list-style: none;
+		display: flex;
+	justify-content: center;
+}
+.navbar2 ul li a
+{
+	text-decoration: none;
+	color: #fff;
+	font-size: 16px;
+	margin-right: 12vw;
+}
+.loginFormContainer
+{
+	display: none;
+	z-index: 1;
+	position: absolute;
+	flex-direction: column;
+	transform: translateX(-43vw);
+	box-shadow: 3px 3px 20px 3px #F4EEE2;
+	padding: 5vw 10vh;
+	color: #8445DE;
+	background-image: url('../img/bg3.jpg');
+	background-size: cover;
+}
+.registerFormContainer
+{
+	display: none;
+	z-index: 0;
+	position: absolute;
+	flex-direction: column;
+	transform: translateX(-43vw);
+	box-shadow: 3px 3px 20px 3px #F4EEE2;
+	padding: 5vw 10vh;
+	color: #8445DE;
+	background-image: url('../img/bg3.jpg');
+	background-size: cover;
+}
+.formLogo
+{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	font-size: 40px;
+	transform: translateY(-3vh);
+}
+.formLogo img 
+{
+	width: 10vw;
+	height: 20vh;
+	text-align: center;
+}
+.login_input
+{
+	background-color: transparent;
+	box-shadow: 1px 1px 9px 0px #fff;
+	border-color: grey;
+	border-width: 0px 0px 1px 0px;
+	border-radius: 15px;
+	border-style: solid;
+	width: 25vw;
+	height: 4vh;
+	color: #8445DE;
+	margin-top: 1.3vh;
+	font-size: 17px;
+	font-style: oblique;
+	text-align: center;
+}
+.login_input:focus
+{
+	border-color: transparent;
+}
+.account_type
+{
+	background-color: transparent;
+	box-shadow: 1px 1px 9px 0px #fff;
+	border-color: grey;
+	border-width: 0px 0px 1px 0px;
+	border-radius: 15px;
+	border-style: solid;
+	color: #8445DE;
+	font-size: 17px;
+	font-style: oblique;
+	text-align: center;
+}
+.login_submit
+{
+	margin-left: 35%;
+	width: 7vw;
+	height: 5vh;
+	background-color: #8445DE;
+	color: #fff;
+	font-size: 20px;
+	border-radius: 30px;
+	border-color: transparent;
+	box-shadow: 1px 1px 9px 0px #fff;
+	font-family: 'Lora', serif;
+	font-style: oblique;
+
+}
+.login_submit:hover
+{
+	background-color: #B9E1FA;
+	font-style: normal;
+}
+.login_label
+{
+	font-size: 20px;
+}
+.register_here
+{
+	text-align: center;
+	font-size: 20px;
+	letter-spacing: 2px;
+	font-style: bold;
+	padding-top: 1vh;
+}
+/*----------------------------------- Trader-----------------------------------  */
+ 
+#trader-navbar2
+{
+	width: 100%;
+	height: 5vh;
+	background-color: #8544DE;
+	display: flex;
+	justify-content: right;
+	align-items: center;
+	margin-top: 2vh;
+}
+#trader-navbar2 ul
+{
+	text-align: center;
+}
+#trader-navbar2 ul li 
+{
+	list-style: none;
+	display: flex;
+	justify-content: center;
+}
+#trader-navbar2 ul li a
+{
+	text-decoration: none;
+	color: #fff;
+	font-size: 16px;
+	margin-right: 3vw;
+}

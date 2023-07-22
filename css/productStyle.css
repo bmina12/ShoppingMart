@@ -1,0 +1,151 @@
+/*---------------------------------------------productDetails-------------------------------------------------*/
+.mainContainer
+{
+	display: flex;
+	margin-top: 13vh;
+	margin-bottom: 20vh;
+}
+.imageBox img
+{
+	width: 25vw;
+	height: 40vh;
+}
+.imageBox
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 30vw;
+	height: 45vh;
+	border: 2px solid brown;
+	margin-left: 10vw;
+	margin-right: 10vw;
+	margin-top: 0vh;
+}
+.productDescription
+{
+	width: 43%;
+}
+.productName
+{
+	font-size: 30px;
+	font-style: bold;
+}
+.desc 
+{
+	margin-top: 1.5vh;
+	text-align: justify;
+}
+.price 
+{
+	margin-top: 1.5vh;
+	font-size: 25px;
+	color: #8544DE;
+	font-weight: 1000;
+}
+.rating 
+{
+	margin-top: 1.5vh;
+	font-weight: 800;
+	color: #9E9FA6;
+}
+.shop
+{
+	margin-top: 1.5vh;
+	font-weight: 1000;
+	color: #9E9FA6;
+}
+.brand 
+{
+	margin-top: 1.5vh;
+	font-weight: 700;
+	color: #9E9FA6;
+}
+.voucherCode 
+{
+	margin-top: 1.5vh;
+	font-weight: 1000;
+	color: #9E9FA6;
+}
+.productDescription button 
+{
+	padding: 8px 12px;
+	background-color: #8544DE;
+	text-align: center;
+	color: #fff;
+	border-radius: 20px;
+	border-color: #8544DE;
+	margin-top: 2vh;
+	cursor: pointer;
+	margin-right: 1vw;
+}
+
+.Review{
+	width: 80vw;  
+	margin-left: 10vw;
+	margin-right: 10vw; 
+	border-radius: 2vw; 
+	list-style: none;
+} 
+#reviewInbox{
+	width: 70vw;
+	margin-top: 5vh;
+	background-color: rgb(236, 233, 233);
+	box-shadow: 1px 1px 9px 0px #fff;
+	border-color: #8445DE;
+	border-width: 0px 0px 1px 0px;
+	border-radius: 15px;
+	border-style: solid; 
+	color: #8445DE; 
+	font-size: 17px;
+	font-style: oblique;
+	text-align: center;
+}
+#reviewbutton{
+	width: 9vw;
+	margin-left: 0.3vh;
+	background-color: #8445DE;
+	color: #fff;
+	font-size: 18px;
+	border-radius: 30px;
+	border-color: transparent;
+	box-shadow: 1px 1px 9px 0px #fff;
+	font-family: 'Lora', serif;
+	font-style: oblique; 
+
+}
+
+#reviewTrader{
+	margin: 0.5vh;
+	color: #8445DE;
+}
+
+#reviewMsg{
+	margin: 0.5vh; 
+	text-align: left;
+	border-bottom: dotted #8445DE 1px;
+	padding-left: 1vw;
+}
+
+@media screen and (max-width: 400px)
+{
+	.mainContainer
+	{
+		flex-direction: column;
+		align-items: center;
+	}
+	.imageBox
+	{
+		width: 250px;
+		height: 300px;
+	}
+	.imageBox img
+	{
+		width: 200px;
+		height: 200px;
+	}
+	.productDescription
+	{
+		width: 70%;
+	}
+}

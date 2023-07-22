@@ -1,0 +1,155 @@
+#traderContainer{
+
+    background-color: #fdfcfc;
+    border: 1px #8445DE solid;
+    border-radius: 16px 16px 16px 16px;
+    margin: 10vh 20vh;
+    margin-top: 0vh;
+}
+#traderTitle{ 
+    margin: 10vh 20vh;
+    margin-bottom: 0vh;
+}
+#traderList li{
+    list-style-type: none; 
+    margin: 5vh;
+}
+.login_label
+{
+	font-size: 20px;
+} 
+
+li .login_input{
+
+	background-color: transparent;
+	box-shadow: 1px 1px 9px 0px #fff;
+	border-color: #8445DE;
+	border-width: 0px 0px 1px 0px;
+	border-radius: 15px;
+	border-style: solid;
+	width: 75vw;
+	height: 4vh;
+	color: #8445DE;
+	margin-top: 1.3vh;
+	font-size: 17px;
+	font-style: oblique;
+	text-align: center;
+    background-color: white;
+} 
+li .login_submit
+{    
+    margin-left: 66vw;
+	width: 9vw;
+	height: 5vh;
+	background-color: #8445DE;
+	color: #fff;
+	font-size: 20px;
+	border-radius: 30px;
+	border-color: transparent;
+	box-shadow: 1px 1px 9px 0px #fff;
+	font-family: 'Lora', serif;
+	font-style: oblique; 
+
+}
+.login_submit:hover
+{
+	background-color: #B9E1FA;
+	font-style: normal;
+}
+.login_input:focus
+{
+	border-color: transparent;
+}
+.account_type
+{
+	background-color: transparent;
+	box-shadow: 1px 1px 9px 0px #fff;
+	border-color: grey;
+	border-width: 0px 0px 1px 0px;
+	border-radius: 15px;
+	border-style: solid;
+	color: #8445DE;
+	font-size: 17px;
+	font-style: oblique;
+	text-align: center;
+}
+
+/* --------------------------- Trader View Product --------------------------- */
+
+
+.table thead{
+	border: none;
+	text-align: center;
+}
+.table tbody{
+   background-color: #FFFFFF;
+   padding-bottom: 10vh;
+   border: #e3e3e3 solid 0.14vh; 
+   box-shadow: 0.28vh 0.28vh 1.4vh rgba(0,  0, 0, 0.2); 
+
+} 
+table tr th:nth-child(1){
+   width:30vw;
+   
+}
+table tr th:nth-child(2){
+   width:20vw; 
+}
+table tr th:nth-child(3){
+   width:20vw;
+}
+table tr th:nth-child(4){
+   width:20vw;
+}
+table tr td:nth-child(5){
+   width:20vw;
+}
+
+table tr td:nth-child(6){
+	width:20vw;
+ }
+table tr td{
+   height: 25vh; 
+   text-align: center;
+
+}
+table tr td a{ 
+	text-decoration: none;
+	color: white;
+	font-size: 2vh;
+ 
+ }
+#table1RemoveBtn{
+	margin-left: 4vw;
+	margin-top: 1vh;
+	width: 7vw;
+	padding: 0.35vw 1vw;
+	background-color:#8445DE;
+	border-color: #8445DE; 
+	border-radius: 20px;
+	color: #FAFAFA;
+	display: block;
+}
+
+#table1RemoveBtn1{
+	margin-left: 4vw;
+	margin-right: 4vw;
+	margin-top: 1vh;
+	width: 7vw;
+	padding: 0.35vw 1vw;
+	background-color:#8445DE;
+	border-color: #8445DE; 
+	border-radius: 20px;
+	color: #FAFAFA;
+	display: block;
+} 
+
+#tbodySeperator{ 
+    height: 2vh;
+    box-shadow: none;
+ } 
+ #picture img{
+	 height: 20vh;
+	 width: 19vw; 
+ }
+ 

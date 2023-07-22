@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+*
+{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Playfair Display', serif;
+}
+
+/*--------------------------------------------Image Slider------------------------------------------------------*/
+.slideshow_container
+{
+	width: 100%;
+}
+.sliderimage
+{
+	display: none;
+}
+.sliderimage img 
+{
+	width: 100%;
+}
+/*--------------------------------------------Featured Product Container------------------------------------------------------*/
+.container1
+{
+	margin-top: 5vh;
+}
+.heading 
+{
+	margin-top: 3vh;
+	font-size: 50px;
+	text-align: center;
+	font-style: bold;
+}
+.miniContainer1 
+{
+	background-color: #FAFAFA;
+	width: 98%;
+	margin: auto;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+.miniContainer1 a 
+{
+	text-decoration: none;
+
+}
+.productBox
+{
+	background-color: #fff;
+	padding: 1vw 4vh;
+	margin-left: 2vw;
+	margin-bottom: 1vw;
+	margin-top: 1vw;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.productBox img 
+{
+	width: 15vw;
+	height: 20vh;
+}
+.productName 
+{
+	margin-top: 10px;
+	font-style: oblique;
+	text-align: center;
+	color: black;
+}
+.productPrice 
+{
+
+	font-style: bold;
+	text-align: center;
+	color: #8544DE;
+	font-size: 20px;
+}
+.productBox button 
+{
+	padding: 6px 10px;
+	background-color: #8544DE;
+	text-align: center;
+	color: #fff;
+	border-radius: 20px;
+	border-color: #8544DE;
+	margin-top: 10px;
+	cursor: pointer;
+}
+/*--------------------------------------------Popular Product Container------------------------------------------------------*/
+.container2
+{
+	margin-top: 5vh;
+	background-color: #fff ;
+	background-attachment: fixed;
+}
+.miniContainer2 
+{
+	background-color: #8544DE;
+	width: 98%;
+	margin: auto;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+.miniContainer2 a 
+{
+	text-decoration: none;
+}
+/*--------------------------------------------Footer------------------------------------------------------*/
+.footer
+{
+	margin-top: 10vh;
+	background-color: #FAFAFA;
+	display: flex;
+	margin-bottom: 2vh;
+}
+.column
+{
+	margin: 5vh 0;
+	padding: 6vh 3vw;
+	border-left: 1px solid grey;
+}
+.column img 
+{
+	width: 15vw;
+	height: 25vh;
+}
+.column ul li
+{
+	list-style: none;
+	border-bottom: 1px solid lightgrey;
+	padding-bottom: 3px;
+	margin-bottom: 3vh;
+}
+.column ul li a 
+{
+	text-decoration: none;
+	font-size: 17px;
+	
+}
+.footerAddress
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	line-height: 32px;
+	color: grey;
+}
+/*------------------------------------------------------loginform------------------------------------------------*/
+
+@media screen and (max-width: 400px)
+{
+	.slideshow_container
+	{
+		height: 20vh;
+	}
+	.sliderimage img 
+	{
+		height: 20vh;
+	}
+	.heading 
+	{
+		margin-top: 3vh;
+		font-size: 40px;
+	}
+	.productBox
+	{
+		width: 80%;
+	}
+
+	.productBox img 
+	{
+		width: 100%;
+		
+	}
+}

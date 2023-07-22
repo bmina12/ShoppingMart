@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Playfair Display', serif;
+}
+h1 
+{
+    text-align: center;
+    margin-top: 5vh;
+    margin-bottom: 3vh;
+}
+.slot 
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h4
+{
+    text-align: center;
+    margin-bottom: 1vh;
+}
+form
+{
+    font-size: 20px;
+}
+.paypal 
+{
+    margin-top: 2vh;
+}

@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+*
+{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.loginContainer
+{
+	display: flex;
+	flex-direction: column;
+	
+	align-items: center;
+	/*background-image: url('../img/bg3.jpg');*/
+	background-color: #F5B0AD;
+	background-size: cover;
+	height: 100vh;
+	font-family: 'Playfair Display', serif;
+}
+.container1
+{
+	display: flex;
+	flex-direction: column;
+	margin-top: 9%;
+	box-shadow: 2px 2px 20px 2px #fff;
+	padding: 40px 30px;
+	background-color: transparent;
+	color: #fff;
+}
+.logo
+{
+	line-height: 30px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	font-size: 40px;
+}
+.logo img 
+{
+	width: 100px;
+	height: 120px;
+	text-align: center;
+}
+.login_input
+{
+	background-color: transparent;
+	box-shadow: 1px 1px 9px 0px #fff;
+	padding-left: 9px;
+	border-color: grey;
+	border-width: 0px 0px 1px 0px;
+	border-radius: 15px;
+	border-style: solid;
+	width: 350px;
+	height: 30px;
+	color: #8445DE;
+	margin-top: 10px;
+	font-size: 17px;
+	font-style: oblique;
+	text-align: center;
+}
+.login_input:focus
+{
+	border-color: transparent;
+}
+.account_type
+{
+	background-color: transparent;
+	box-shadow: 1px 1px 9px 0px #fff;
+	padding-left: 9px;
+	border-color: grey;
+	border-width: 0px 0px 1px 0px;
+	border-radius: 15px;
+	border-style: solid;
+	width: 350px;
+	height: 30px;
+	color: #8445DE;
+	margin-top: 10px;
+	font-size: 17px;
+	font-style: oblique;
+	text-align: center;
+}
+.login_submit
+{
+	margin-left: 35%;
+	width: 120px;
+	height: 40px;
+	background-color: #8445DE;
+	color: #fff;
+	font-size: 20px;
+	border-radius: 30px;
+	border-color: transparent;
+	box-shadow: 1px 1px 9px 0px #fff;
+	font-family: 'Lora', serif;
+	font-style: oblique;
+
+}
+.login_submit:hover
+{
+	background-color: #B9E1FA;
+	font-style: normal;
+}
+.login_label
+{
+	font-size: 20px;
+}
+.register_here
+{
+	text-align: center;
+	font-size: 20px;
+	letter-spacing: 2px;
+	padding-top: 3px;
+}

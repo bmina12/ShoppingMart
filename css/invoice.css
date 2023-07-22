@@ -1,0 +1,76 @@
+.Name{
+    margin-top:5vh; 
+    margin-left: 30vw;
+}
+.heading{
+    margin-top:2vh; 
+    margin-left: 30vw; 
+    width: 39vw;
+}
+.Container{
+    margin:0vh; 
+    height: 45vh;
+    width: 39vw;
+    margin-left: 30vw;
+    margin-right: 30vw;
+    background-color: lightgray;
+}
+.date{
+    float: right;
+}
+.email{
+    margin: 1.5vh; 
+    margin-bottom: 0vh;
+}
+.Phoneno{
+    margin: 7.5vh;
+    margin-top: 0vh;
+
+}
+table{
+    border: 1px solid black;
+    margin-left: 2.5vw;
+    height: 25vh;
+}
+table thead td{
+    text-align: center;
+}
+table thead td:nth-child(1){
+    text-align: center; 
+    width: 12vw;
+}
+table thead td:nth-child(2){ 
+    text-align: center;
+    width: 5vw;
+}
+table thead td:nth-child(3){ 
+    text-align: center;
+    width: 8vw;
+}
+table thead td:nth-child(4){ 
+    text-align: center;
+    width: 8vw;
+} 
+table tbody tr td:nth-child(1){ 
+    text-align: center;
+    width: 12vw;
+}
+table tbody tr td:nth-child(2){ 
+    text-align: center;
+    width: 5vw;
+}
+table tbody tr td:nth-child(3){ 
+    text-align: center;
+    width: 8vw;
+}
+table tbody tr td:nth-child(4){ 
+    text-align: center;
+    width: 8vw;
+}
+.totalcontainer{
+display: flex;
+float: right; 
+}
+h2{ 
+margin-right: 2.5vw;
+}

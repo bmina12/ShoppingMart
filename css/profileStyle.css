@@ -1,0 +1,77 @@
+ #mainContent{
+    margin:0vh 30vh; 
+    margin-top: 10vh;
+    height: 70vh;
+    width: 70vw;  
+}
+#contentHeader{ 
+    font-size: 24px;
+}
+#contentBody{
+    height: 60vh;
+    width: 70vw;
+    background-color: #FAFAFA;
+    box-shadow: 0.28vh 0.28vh 1.4vh rgba(0,  0, 0, 0.2);  
+    display: flex;
+}
+#profile-Title { 
+    margin: 2vh;
+}
+#profile-Img{
+    height: 40vh;
+    width: 20vw; 
+    margin: 2vh;
+}
+#profile-Img img{
+    height: 40vh;
+    width: 19vw; 
+}
+#profile-Details{  
+    height: 56vh;
+    width: 60vw;
+    border: 1px black solid;
+    margin: 2vh;
+}
+.updateDetails{ 
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+} 
+
+.edit_input
+{
+	background-color: white;
+	box-shadow: 1px 1px 9px 0px #fff;
+	padding-left: 9px;
+	border-color: grey;
+	border-width: 0px 0px 1px 0px;
+	border-radius: 15px;
+	border-style: solid;
+	width: 14vw;
+	height: 30px;
+	color: #8445DE;
+	margin-top: 1vh;
+	font-size: 17px;
+	font-style: oblique;
+	text-align: center;
+}
+.edit_submit:hover
+{
+	background-color: #B9E1FA;
+	font-style: normal;
+}
+.edit_label
+{
+	font-size: 20px; 
+	margin-top: 1vh;
+}
+.lb-Block{
+    margin: 1vh;
+}
+.input-Block input{
+    width: 20vh; 
+}
+.input-Block{ 
+    margin-top: 18vh;
+    float: right;
+
+}
